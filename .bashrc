@@ -32,3 +32,6 @@ eval "$(starship init bash)"
 
 # Zoxide
 eval "$(zoxide init bash)"
+
+# ssh-agent
+eval $(keychain --eval --quiet --noask gh_ed25519_wsl)
