@@ -14,6 +14,7 @@ PS1='[\u@\h \w]$ '
 export XDG_CONFIG_HOME=$HOME/.config
 export EDITOR=nvim
 export VISUAL=nvim
+export GPG_TTY=$(tty)
 
 # Aliases.
 if [ -f ~/.bash_aliases ]; then
