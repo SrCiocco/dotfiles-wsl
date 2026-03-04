@@ -1,5 +1,10 @@
 [init]
 	defaultBranch = main
 [user]
-	name = SrCiocco
+	name = Marcos Ojeda
 	email = 193316448+SrCiocco@users.noreply.github.com
+	signingkey = 05A7359E62856F23
+[alias]
+	lg = log --graph --pretty=format:'%C(yellow)%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+[commit]
+	gpgsign = true
