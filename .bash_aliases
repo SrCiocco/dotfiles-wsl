@@ -48,3 +48,6 @@ alias cat="bat"
 
 # zoxide.
 alias cd="z"
+
+# fastfetch.
+alias fastfetch="clear && fastfetch --logo small"
